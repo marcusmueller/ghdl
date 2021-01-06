@@ -1,0 +1,10 @@
+pyGHDL.libghdl.vhdl.tokens
+==============================
+
+.. automodule:: pyGHDL.libghdl.vhdl.tokens
+
+
+.. currentmodule:: pyGHDL.libghdl.vhdl.tokens
+
+
+.. #-----------------------------------

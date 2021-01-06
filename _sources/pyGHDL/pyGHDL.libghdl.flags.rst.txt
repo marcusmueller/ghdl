@@ -1,0 +1,10 @@
+pyGHDL.libghdl.flags
+========================
+
+.. automodule:: pyGHDL.libghdl.flags
+
+
+.. currentmodule:: pyGHDL.libghdl.flags
+
+
+.. #-----------------------------------

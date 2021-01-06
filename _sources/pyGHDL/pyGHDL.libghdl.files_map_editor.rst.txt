@@ -1,0 +1,10 @@
+pyGHDL.libghdl.files_map_editor
+===================================
+
+.. automodule:: pyGHDL.libghdl.files_map_editor
+
+
+.. currentmodule:: pyGHDL.libghdl.files_map_editor
+
+
+.. #-----------------------------------

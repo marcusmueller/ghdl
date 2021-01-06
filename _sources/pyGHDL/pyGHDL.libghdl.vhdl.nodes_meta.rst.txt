@@ -1,0 +1,10 @@
+pyGHDL.libghdl.vhdl.nodes_meta
+==================================
+
+.. automodule:: pyGHDL.libghdl.vhdl.nodes_meta
+
+
+.. currentmodule:: pyGHDL.libghdl.vhdl.nodes_meta
+
+
+.. #-----------------------------------

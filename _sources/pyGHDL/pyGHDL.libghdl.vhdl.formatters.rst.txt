@@ -1,0 +1,10 @@
+pyGHDL.libghdl.vhdl.formatters
+==================================
+
+.. automodule:: pyGHDL.libghdl.vhdl.formatters
+
+
+.. currentmodule:: pyGHDL.libghdl.vhdl.formatters
+
+
+.. #-----------------------------------

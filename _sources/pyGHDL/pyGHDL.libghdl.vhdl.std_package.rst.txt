@@ -1,0 +1,10 @@
+pyGHDL.libghdl.vhdl.std_package
+===================================
+
+.. automodule:: pyGHDL.libghdl.vhdl.std_package
+
+
+.. currentmodule:: pyGHDL.libghdl.vhdl.std_package
+
+
+.. #-----------------------------------

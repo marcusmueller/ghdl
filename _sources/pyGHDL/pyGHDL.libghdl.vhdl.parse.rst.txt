@@ -1,0 +1,10 @@
+pyGHDL.libghdl.vhdl.parse
+=============================
+
+.. automodule:: pyGHDL.libghdl.vhdl.parse
+
+
+.. currentmodule:: pyGHDL.libghdl.vhdl.parse
+
+
+.. #-----------------------------------

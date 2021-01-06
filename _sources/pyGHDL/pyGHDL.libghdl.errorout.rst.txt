@@ -1,0 +1,10 @@
+pyGHDL.libghdl.errorout
+===========================
+
+.. automodule:: pyGHDL.libghdl.errorout
+
+
+.. currentmodule:: pyGHDL.libghdl.errorout
+
+
+.. #-----------------------------------

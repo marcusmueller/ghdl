@@ -1,0 +1,10 @@
+pyGHDL.libghdl.vhdl.canon
+=============================
+
+.. automodule:: pyGHDL.libghdl.vhdl.canon
+
+
+.. currentmodule:: pyGHDL.libghdl.vhdl.canon
+
+
+.. #-----------------------------------

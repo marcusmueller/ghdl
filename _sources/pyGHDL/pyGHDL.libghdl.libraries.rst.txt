@@ -1,0 +1,10 @@
+pyGHDL.libghdl.libraries
+============================
+
+.. automodule:: pyGHDL.libghdl.libraries
+
+
+.. currentmodule:: pyGHDL.libghdl.libraries
+
+
+.. #-----------------------------------

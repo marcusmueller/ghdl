@@ -1,0 +1,10 @@
+pyGHDL.libghdl.std_names
+============================
+
+.. automodule:: pyGHDL.libghdl.std_names
+
+
+.. currentmodule:: pyGHDL.libghdl.std_names
+
+
+.. #-----------------------------------

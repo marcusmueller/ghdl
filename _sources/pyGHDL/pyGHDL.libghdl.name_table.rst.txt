@@ -1,0 +1,25 @@
+pyGHDL.libghdl.name_table
+=============================
+
+.. automodule:: pyGHDL.libghdl.name_table
+
+
+.. currentmodule:: pyGHDL.libghdl.name_table
+
+
+.. #-----------------------------------
+
+
+**Functions**
+
+- :py:func:`Get_Identifier`:
+  Undocumented.
+
+
+
+.. #-----------------------------------
+
+**Functions**
+
+
+.. autofunction:: Get_Identifier

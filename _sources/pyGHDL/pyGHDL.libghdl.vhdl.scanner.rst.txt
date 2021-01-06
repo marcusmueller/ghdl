@@ -1,0 +1,10 @@
+pyGHDL.libghdl.vhdl.scanner
+===============================
+
+.. automodule:: pyGHDL.libghdl.vhdl.scanner
+
+
+.. currentmodule:: pyGHDL.libghdl.vhdl.scanner
+
+
+.. #-----------------------------------

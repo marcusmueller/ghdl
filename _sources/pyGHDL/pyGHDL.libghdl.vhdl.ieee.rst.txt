@@ -1,0 +1,10 @@
+pyGHDL.libghdl.vhdl.ieee
+============================
+
+.. automodule:: pyGHDL.libghdl.vhdl.ieee
+
+
+.. currentmodule:: pyGHDL.libghdl.vhdl.ieee
+
+
+.. #-----------------------------------

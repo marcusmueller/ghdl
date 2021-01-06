@@ -1,0 +1,10 @@
+pyGHDL.libghdl.files_map
+============================
+
+.. automodule:: pyGHDL.libghdl.files_map
+
+
+.. currentmodule:: pyGHDL.libghdl.files_map
+
+
+.. #-----------------------------------

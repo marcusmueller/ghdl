@@ -1,0 +1,2930 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Index &mdash; GHDL 1.0-dev documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/graphviz.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="_static/icon.png"/>
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="author" title="About these documents" href="about.html" />
+    <link rel="index" title="Index" href="#" />
+    <link rel="search" title="Search" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html">
+          
+
+          
+            
+            <img src="_static/logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0-dev
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Introduction</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="about.html">About GHDL</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contribute.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="licenses.html">Copyrights | Licenses</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Getting GHDL</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="getting/Releases.html">Releases and sources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="getting/index.html">Building GHDL</a></li>
+<li class="toctree-l1"><a class="reference internal" href="getting/PrecompileVendorPrimitives.html">Precompile Vendor Primitives</a></li>
+</ul>
+<p class="caption"><span class="caption-text">GHDL usage</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="quick_start/README.html">Quick Start Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="using/InvokingGHDL.html">Invoking GHDL</a></li>
+<li class="toctree-l1"><a class="reference internal" href="using/Simulation.html">Simulation (runtime)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="using/Synthesis.html">Synthesis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="using/CommandReference.html">Additional Command Reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="using/Foreign.html">Co-simulation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="using/ImplementationOfVHDL.html">Implementation of VHDL</a></li>
+<li class="toctree-l1"><a class="reference internal" href="using/ImplementationOfVITAL.html">Implementation of VITAL</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Development</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="development/Debugging.html">Debugging</a></li>
+<li class="toctree-l1"><a class="reference internal" href="development/CodingStyle.html">Coding Style</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gnatdoc/index.html">gnatdoc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pyGHDL/index.html">Python Interfaces</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pyGHDL/index.html#scripts-and-applications">Scripts and Applications</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Internals</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="internals/Overview.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="internals/Frontend.html">Front-end</a></li>
+<li class="toctree-l1"><a class="reference internal" href="internals/AST.html">AST</a></li>
+<li class="toctree-l1"><a class="reference internal" href="internals/RTI.html">Run Time Information (RTI)</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Index</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Index</a></li>
+<li class="toctree-l1"><a class="reference internal" href="py-modindex.html">Python Module Index</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">GHDL</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Index</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            
+              <a href="https://github.com/ghdl/ghdl/blob/master/doc/genindex" class="fa fa-github"> Edit on GitHub</a>
+            
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+
+<h1 id="index">Index</h1>
+
+<div class="genindex-jumpbox">
+ <a href="#Symbols"><strong>Symbols</strong></a>
+ | <a href="#_"><strong>_</strong></a>
+ | <a href="#A"><strong>A</strong></a>
+ | <a href="#B"><strong>B</strong></a>
+ | <a href="#C"><strong>C</strong></a>
+ | <a href="#D"><strong>D</strong></a>
+ | <a href="#E"><strong>E</strong></a>
+ | <a href="#F"><strong>F</strong></a>
+ | <a href="#G"><strong>G</strong></a>
+ | <a href="#I"><strong>I</strong></a>
+ | <a href="#K"><strong>K</strong></a>
+ | <a href="#L"><strong>L</strong></a>
+ | <a href="#M"><strong>M</strong></a>
+ | <a href="#N"><strong>N</strong></a>
+ | <a href="#O"><strong>O</strong></a>
+ | <a href="#P"><strong>P</strong></a>
+ | <a href="#R"><strong>R</strong></a>
+ | <a href="#S"><strong>S</strong></a>
+ | <a href="#T"><strong>T</strong></a>
+ | <a href="#U"><strong>U</strong></a>
+ | <a href="#V"><strong>V</strong></a>
+ | <a href="#W"><strong>W</strong></a>
+ 
+</div>
+<h2 id="Symbols">Symbols</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li>
+    --activity=&lt;LEVEL&gt;
+
+      <ul>
+        <li><a href="development/Debugging.html#cmdoption-activity">command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --AS&lt;=COMMAND&gt;
+
+      <ul>
+        <li><a href="using/CommandReference.html#cmdoption-ghdl-AS">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --assert-assumes
+
+      <ul>
+        <li><a href="using/Synthesis.html#cmdoption-ghdl-assert-assumes">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --assert-level=&lt;LEVEL&gt;
+
+      <ul>
+        <li><a href="using/Simulation.html#cmdoption-ghdl-assert-level">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --asserts=&lt;POLICY&gt;
+
+      <ul>
+        <li><a href="using/Simulation.html#cmdoption-ghdl-asserts">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --assume-asserts
+
+      <ul>
+        <li><a href="using/Synthesis.html#cmdoption-ghdl-assume-asserts">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --backtrace-severity=&lt;LEVEL&gt;
+
+      <ul>
+        <li><a href="using/Simulation.html#cmdoption-ghdl-backtrace-severity">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --bind &lt;[options] primary_unit [secondary_unit]&gt;
+
+      <ul>
+        <li><a href="using/CommandReference.html#cmdoption-ghdl-bind">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --bootstrap
+
+      <ul>
+        <li><a href="development/Debugging.html#cmdoption-bootstrap">command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --checks
+
+      <ul>
+        <li><a href="development/Debugging.html#cmdoption-checks">command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --chop &lt;files...&gt;
+
+      <ul>
+        <li><a href="using/CommandReference.html#cmdoption-ghdl-chop">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --clean &lt;[options]&gt;
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-clean">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --copy &lt;--work=name [options]&gt;
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-copy">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --dir &lt;[options] [libs]&gt;
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-dir">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --disp-config
+
+      <ul>
+        <li><a href="pyGHDL/index.html#cmdoption-ghdl-ls-disp-config">ghdl-ls command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --disp-config &lt;[options]&gt;
+
+      <ul>
+        <li><a href="using/CommandReference.html#cmdoption-ghdl-disp-config">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --disp-order
+
+      <ul>
+        <li><a href="development/Debugging.html#cmdoption-disp-order">command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --disp-sig-types
+
+      <ul>
+        <li><a href="development/Debugging.html#cmdoption-disp-sig-types">command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --disp-signals-map
+
+      <ul>
+        <li><a href="development/Debugging.html#cmdoption-disp-signals-map">command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --disp-signals-table
+
+      <ul>
+        <li><a href="development/Debugging.html#cmdoption-disp-signals-table">command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --disp-sources
+
+      <ul>
+        <li><a href="development/Debugging.html#cmdoption-disp-sources">command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --disp-standard &lt;[options]&gt;
+
+      <ul>
+        <li><a href="using/CommandReference.html#cmdoption-ghdl-disp-standard">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --disp-time
+
+      <ul>
+        <li><a href="using/Simulation.html#cmdoption-ghdl-disp-time">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --disp-tree=&lt;KIND&gt;
+
+      <ul>
+        <li><a href="using/Simulation.html#cmdoption-ghdl-disp-tree">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --dump-rti
+
+      <ul>
+        <li><a href="development/Debugging.html#cmdoption-dump-rti">command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --elab-run &lt;[options...] primary_unit [secondary_unit] [simulation_options...]&gt;
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-elab-run">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --field-file &lt;field_file&gt;
+
+      <ul>
+        <li><a href="pyGHDL/index.html#cmdoption-pnodes-field-file">pnodes command line option</a>
+</li>
+        <li><a href="pyGHDL/index.html#cmdoption-pnodespy-field-file">pnodespy command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --file-to-xml
+
+      <ul>
+        <li><a href="using/CommandReference.html#cmdoption-ghdl-file-to-xml">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --format=&lt;FORMAT&gt;
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-format">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --fst=&lt;FILENAME&gt;
+
+      <ul>
+        <li><a href="using/Simulation.html#cmdoption-ghdl-fst">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --gen-depends &lt;[options] primary [secondary]&gt;
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-gen-depends">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li><a href="using/InvokingGHDL.html#index-10">--gen-depends command</a>
+</li>
+      <li>
+    --gen-makefile &lt;[options] primary [secondary]&gt;
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-gen-makefile">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --GHDL1&lt;=COMMAND&gt;
+
+      <ul>
+        <li><a href="using/CommandReference.html#cmdoption-ghdl-GHDL1">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --help
+
+      <ul>
+        <li><a href="using/CommandReference.html#cmdoption-ghdl-help">ghdl command line option</a>, <a href="using/Simulation.html#cmdoption-ghdl-help">[1]</a>
+</li>
+        <li><a href="pyGHDL/index.html#cmdoption-ghdl-ls-h">ghdl-ls command line option</a>
+</li>
+        <li><a href="pyGHDL/index.html#cmdoption-pnodes-h">pnodes command line option</a>
+</li>
+        <li><a href="pyGHDL/index.html#cmdoption-pnodespy-h">pnodespy command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --ieee-asserts=&lt;POLICY&gt;
+
+      <ul>
+        <li><a href="using/Simulation.html#cmdoption-ghdl-ieee-asserts">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --ieee=&lt;IEEE_VAR&gt;
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-ieee">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --input &lt;input&gt;
+
+      <ul>
+        <li><a href="pyGHDL/index.html#cmdoption-ghdl-ls-input">ghdl-ls command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --keep-order
+
+      <ul>
+        <li><a href="pyGHDL/index.html#cmdoption-pnodes-keep-order">pnodes command line option</a>
+</li>
+        <li><a href="pyGHDL/index.html#cmdoption-pnodespy-keep-order">pnodespy command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --kind-file &lt;kind_file&gt;
+
+      <ul>
+        <li><a href="pyGHDL/index.html#cmdoption-pnodes-kind-file">pnodes command line option</a>
+</li>
+        <li><a href="pyGHDL/index.html#cmdoption-pnodespy-kind-file">pnodespy command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --kind-prefix &lt;kind_prefix&gt;
+
+      <ul>
+        <li><a href="pyGHDL/index.html#cmdoption-pnodes-kind-prefix">pnodes command line option</a>
+</li>
+        <li><a href="pyGHDL/index.html#cmdoption-pnodespy-kind-prefix">pnodespy command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --kind-range-prefix &lt;kind_range_prefix&gt;
+
+      <ul>
+        <li><a href="pyGHDL/index.html#cmdoption-pnodes-kind-range-prefix">pnodes command line option</a>
+</li>
+        <li><a href="pyGHDL/index.html#cmdoption-pnodespy-kind-range-prefix">pnodespy command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --kind-type &lt;kind_type&gt;
+
+      <ul>
+        <li><a href="pyGHDL/index.html#cmdoption-pnodes-kind-type">pnodes command line option</a>
+</li>
+        <li><a href="pyGHDL/index.html#cmdoption-pnodespy-kind-type">pnodespy command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --lines &lt;files...&gt;
+
+      <ul>
+        <li><a href="using/CommandReference.html#cmdoption-ghdl-lines">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --link &lt;[options] primary_unit [secondary_unit]&gt;
+
+      <ul>
+        <li><a href="using/CommandReference.html#cmdoption-ghdl-link">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --LINK&lt;=COMMAND&gt;
+
+      <ul>
+        <li><a href="using/CommandReference.html#cmdoption-ghdl-LINK">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --list-link &lt;primary_unit [secondary_unit]&gt;
+
+      <ul>
+        <li><a href="using/CommandReference.html#cmdoption-ghdl-list-link">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --log-file &lt;log_file&gt;
+
+      <ul>
+        <li><a href="pyGHDL/index.html#cmdoption-ghdl-ls-log-file">ghdl-ls command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --max-stack-alloc=&lt;N&gt;
+
+      <ul>
+        <li><a href="using/Simulation.html#cmdoption-ghdl-max-stack-alloc">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --mb-comments
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-mb-comments">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --meta-basename &lt;meta_basename&gt;
+
+      <ul>
+        <li><a href="pyGHDL/index.html#cmdoption-pnodes-meta-basename">pnodes command line option</a>
+</li>
+        <li><a href="pyGHDL/index.html#cmdoption-pnodespy-meta-basename">pnodespy command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --no-assert-cover
+
+      <ul>
+        <li><a href="using/Synthesis.html#cmdoption-ghdl-no-assert-cover">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --no-formal
+
+      <ul>
+        <li><a href="using/Synthesis.html#cmdoption-ghdl-no-formal">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --no-run
+
+      <ul>
+        <li><a href="using/Simulation.html#cmdoption-ghdl-no-run">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --no-vital-checks
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-no-vital-checks">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --node-file &lt;node_file&gt;
+
+      <ul>
+        <li><a href="pyGHDL/index.html#cmdoption-pnodes-node-file">pnodes command line option</a>
+</li>
+        <li><a href="pyGHDL/index.html#cmdoption-pnodespy-node-file">pnodespy command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --node-type &lt;node_type&gt;
+
+      <ul>
+        <li><a href="pyGHDL/index.html#cmdoption-pnodes-node-type">pnodes command line option</a>
+</li>
+        <li><a href="pyGHDL/index.html#cmdoption-pnodespy-node-type">pnodespy command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --pp-html &lt;[options] file...&gt;
+
+      <ul>
+        <li><a href="using/CommandReference.html#cmdoption-ghdl-pp-html">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --PREFIX=&lt;PATH&gt;
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-PREFIX">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --psl-report=&lt;FILENAME&gt;
+
+      <ul>
+        <li><a href="using/Simulation.html#cmdoption-ghdl-psl-report">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --read-wave-opt=&lt;FILENAME&gt;
+
+      <ul>
+        <li><a href="using/Simulation.html#cmdoption-ghdl-read-wave-opt">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --remove &lt;[options]&gt;
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-remove">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --sdf=&lt;PATH=FILENAME&gt;
+
+      <ul>
+        <li><a href="using/Simulation.html#cmdoption-ghdl-sdf">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --stats
+
+      <ul>
+        <li><a href="development/Debugging.html#cmdoption-stats">command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --std=&lt;STANDARD&gt;
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-std">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --stop-delta=&lt;N&gt;
+
+      <ul>
+        <li><a href="using/Simulation.html#cmdoption-ghdl-stop-delta">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --stop-time=&lt;TIME&gt;
+
+      <ul>
+        <li><a href="using/Simulation.html#cmdoption-ghdl-stop-time">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --syn-binding
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-syn-binding">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --synth &lt;[options] files... -e primary_unit [secondary_unit]&gt;
+
+      <ul>
+        <li><a href="using/Synthesis.html#cmdoption-ghdl-0">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --synth &lt;[options] primary_unit [secondary_unit]&gt;
+
+      <ul>
+        <li><a href="using/Synthesis.html#cmdoption-ghdl-synth">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --template-file &lt;template_file&gt;
+
+      <ul>
+        <li><a href="pyGHDL/index.html#cmdoption-pnodes-template-file">pnodes command line option</a>
+</li>
+        <li><a href="pyGHDL/index.html#cmdoption-pnodespy-template-file">pnodespy command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --time-resolution=&lt;UNIT&gt;
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-time-resolution">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --trace-file &lt;trace_file&gt;
+
+      <ul>
+        <li><a href="pyGHDL/index.html#cmdoption-ghdl-ls-trace-file">ghdl-ls command line option</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li>
+    --trace-processes
+
+      <ul>
+        <li><a href="development/Debugging.html#cmdoption-trace-processes">command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --trace-signals
+
+      <ul>
+        <li><a href="development/Debugging.html#cmdoption-trace-signals">command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --unbuffered
+
+      <ul>
+        <li><a href="using/Simulation.html#cmdoption-ghdl-unbuffered">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --vcd-nodate
+
+      <ul>
+        <li><a href="using/Simulation.html#cmdoption-ghdl-vcd-nodate">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --vcd=&lt;FILENAME&gt;
+
+      <ul>
+        <li><a href="using/Simulation.html#cmdoption-ghdl-vcd">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --vcdgz=&lt;FILENAME&gt;
+
+      <ul>
+        <li><a href="using/Simulation.html#cmdoption-ghdl-vcdgz">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --vendor-library=NAME
+
+      <ul>
+        <li><a href="using/Synthesis.html#cmdoption-ghdl-vendor-library">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --verbose
+
+      <ul>
+        <li><a href="pyGHDL/index.html#cmdoption-ghdl-ls-verbose">ghdl-ls command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --version
+
+      <ul>
+        <li><a href="using/CommandReference.html#cmdoption-ghdl-version">ghdl command line option</a>
+</li>
+        <li><a href="pyGHDL/index.html#cmdoption-ghdl-ls-version">ghdl-ls command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --vital-checks
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-vital-checks">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --vpi-cflags
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-vpi-cflags">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --vpi-compile &lt;command&gt;
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-vpi-compile">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --vpi-include-dir
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-vpi-include-dir">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --vpi-ldflags
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-vpi-ldflags">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --vpi-library-dir
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-vpi-library-dir">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --vpi-library-dir-unix
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-vpi-library-dir-unix">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --vpi-link &lt;command&gt;
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-vpi-link">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --vpi-trace=&lt;FILE&gt;
+
+      <ul>
+        <li><a href="using/Simulation.html#cmdoption-ghdl-vpi-trace">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --vpi=&lt;FILENAME&gt;
+
+      <ul>
+        <li><a href="using/Simulation.html#cmdoption-ghdl-vpi">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --warn-binding
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-warn-binding">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --warn-body
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-warn-body">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --warn-default-binding
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-warn-default-binding">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --warn-delayed-checks
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-warn-delayed-checks">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --warn-error
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-warn-error">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --warn-hide
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-warn-hide">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --warn-library
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-warn-library">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --warn-nested-comment
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-warn-nested-comment">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --warn-others
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-warn-others">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --warn-parenthesis
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-warn-parenthesis">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --warn-pure
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-warn-pure">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --warn-reserved
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-warn-reserved">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --warn-runtime-error
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-warn-runtime-error">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --warn-shared
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-warn-shared">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --warn-specs
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-warn-specs">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --warn-static
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-warn-static">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --warn-unused
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-warn-unused">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --warn-vital-generic
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-warn-vital-generic">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --wave=&lt;FILENAME&gt;
+
+      <ul>
+        <li><a href="using/Simulation.html#cmdoption-ghdl-wave">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --work=&lt;LIB_NAME&gt;
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-work">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --workdir=&lt;DIR&gt;
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-workdir">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --write-wave-opt=&lt;FILENAME&gt;
+
+      <ul>
+        <li><a href="using/Simulation.html#cmdoption-ghdl-write-wave-opt">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --xref-html [options] files...
+
+      <ul>
+        <li><a href="using/Simulation.html#cmdoption-ghdl-xref-html">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    -a &lt;[options...] file...&gt;
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-a">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    -C
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-mb-comments">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    -c &lt;[options] file... -&lt;e|r&gt; primary_unit [secondary_unit]&gt;
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-c">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    -e &lt;[options...] primary_unit [secondary_unit]&gt;
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-e">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    -f &lt;file...&gt;
+
+      <ul>
+        <li><a href="using/CommandReference.html#cmdoption-ghdl-f">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    -fcaret-diagnostics
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-fcaret-diagnostics">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    -fcolor-diagnostics
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-fcolor-diagnostics">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    -fdiagnostics-show-option
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-fdiagnostics-show-option">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    -fexplicit
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-fexplicit">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    -fno-caret-diagnostics
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-fno-caret-diagnostics">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    -fno-color-diagnostics
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-fno-color-diagnostics">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    -fno-diagnostics-show-option
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-fno-diagnostics-show-option">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    -fpsl
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-fpsl">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    -frelaxed
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-frelaxed">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    -frelaxed-rules
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-frelaxed-rules">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    -fsynopsys
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-fsynopsys">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    -gGENERIC=VALUE
+
+      <ul>
+        <li><a href="using/Simulation.html#cmdoption-ghdl-gGENERIC">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    -gNAME=VALUE
+
+      <ul>
+        <li><a href="using/Synthesis.html#cmdoption-ghdl-gNAME">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    -h
+
+      <ul>
+        <li><a href="using/CommandReference.html#cmdoption-ghdl-help">ghdl command line option</a>
+</li>
+        <li><a href="pyGHDL/index.html#cmdoption-ghdl-ls-h">ghdl-ls command line option</a>
+</li>
+        <li><a href="pyGHDL/index.html#cmdoption-pnodes-h">pnodes command line option</a>
+</li>
+        <li><a href="pyGHDL/index.html#cmdoption-pnodespy-h">pnodespy command line option</a>
+</li>
+      </ul></li>
+      <li>
+    -i &lt;[options] file...&gt;
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-i">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    -i &lt;input&gt;
+
+      <ul>
+        <li><a href="pyGHDL/index.html#cmdoption-ghdl-ls-input">ghdl-ls command line option</a>
+</li>
+      </ul></li>
+      <li>
+    -m &lt;[options] primary [secondary]&gt;
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-m">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    -o=&lt;FNAME&gt;
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-o">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    -P&lt;DIRECTORY&gt;
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-P">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    -r &lt;[options...] primary_unit [secondary_unit] [simulation_options...]&gt;
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-r">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    -s &lt;[options] files&gt;
+
+      <ul>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-s">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    -V
+
+      <ul>
+        <li><a href="pyGHDL/index.html#cmdoption-ghdl-ls-version">ghdl-ls command line option</a>
+</li>
+      </ul></li>
+      <li>
+    -v
+
+      <ul>
+        <li><a href="using/CommandReference.html#cmdoption-ghdl-version">ghdl command line option</a>, <a href="using/InvokingGHDL.html#cmdoption-ghdl-v">[1]</a>
+</li>
+        <li><a href="pyGHDL/index.html#cmdoption-ghdl-ls-verbose">ghdl-ls command line option</a>
+</li>
+      </ul></li>
+      <li>
+    -Wa,&lt;OPTION&gt;
+
+      <ul>
+        <li><a href="using/CommandReference.html#cmdoption-ghdl-Wa">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    -Wc,&lt;OPTION&gt;
+
+      <ul>
+        <li><a href="using/CommandReference.html#cmdoption-ghdl-Wc">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li>
+    -Wl,&lt;OPTION&gt;
+
+      <ul>
+        <li><a href="using/CommandReference.html#cmdoption-ghdl-Wl">ghdl command line option</a>
+</li>
+      </ul></li>
+      <li><a href="using/ImplementationOfVHDL.html#index-3">1076</a>
+</li>
+      <li><a href="using/InvokingGHDL.html#index-14">1076.3</a>
+</li>
+      <li><a href="using/ImplementationOfVITAL.html#index-2">1076.4</a>
+</li>
+      <li><a href="using/ImplementationOfVHDL.html#index-4">1076a</a>
+</li>
+      <li><a href="using/InvokingGHDL.html#index-12">1164</a>
+</li>
+      <li><a href="development/Debugging.html#index-0">`__ghdl_fatal`</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="_">_</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="pyGHDL/pyGHDL.dom.Misc.html#pyGHDL.dom.Misc.Document._architectures">_architectures (pyGHDL.dom.Misc.Document attribute)</a>
+</li>
+      <li><a href="pyGHDL/pyGHDL.libghdl.errorout_memory.html#pyGHDL.libghdl.errorout_memory.Error_Message._b_base_">_b_base_ (pyGHDL.libghdl.errorout_memory.Error_Message attribute)</a>
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.libghdl.vhdl.lists.html#pyGHDL.libghdl.vhdl.lists.Iterator._b_base_">(pyGHDL.libghdl.vhdl.lists.Iterator attribute)</a>
+</li>
+      </ul></li>
+      <li><a href="pyGHDL/pyGHDL.libghdl.errorout_memory.html#pyGHDL.libghdl.errorout_memory.Error_Message._b_needsfree_">_b_needsfree_ (pyGHDL.libghdl.errorout_memory.Error_Message attribute)</a>
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.libghdl.vhdl.lists.html#pyGHDL.libghdl.vhdl.lists.Iterator._b_needsfree_">(pyGHDL.libghdl.vhdl.lists.Iterator attribute)</a>
+</li>
+      </ul></li>
+      <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Architecture._bodyItems">_bodyItems (pyGHDL.dom.DesignUnit.Architecture attribute)</a>
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Entity._bodyItems">(pyGHDL.dom.DesignUnit.Entity attribute)</a>
+</li>
+      </ul></li>
+      <li><a href="pyGHDL/pyGHDL.dom.Misc.html#pyGHDL.dom.Misc.Document._configurations">_configurations (pyGHDL.dom.Misc.Document attribute)</a>
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.dom.Misc.html#pyGHDL.dom.Misc.Library._configurations">(pyGHDL.dom.Misc.Library attribute)</a>
+</li>
+      </ul></li>
+      <li><a href="pyGHDL/pyGHDL.dom.Misc.html#pyGHDL.dom.Misc.Document._contexts">_contexts (pyGHDL.dom.Misc.Document attribute)</a>
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.dom.Misc.html#pyGHDL.dom.Misc.Library._contexts">(pyGHDL.dom.Misc.Library attribute)</a>
+</li>
+      </ul></li>
+      <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Architecture._declaredItems">_declaredItems (pyGHDL.dom.DesignUnit.Architecture attribute)</a>
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Entity._declaredItems">(pyGHDL.dom.DesignUnit.Entity attribute)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Package._declaredItems">(pyGHDL.dom.DesignUnit.Package attribute)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.PackageBody._declaredItems">(pyGHDL.dom.DesignUnit.PackageBody attribute)</a>
+</li>
+      </ul></li>
+      <li><a href="pyGHDL/pyGHDL.dom.InterfaceItem.html#pyGHDL.dom.InterfaceItem.GenericConstantInterfaceItem._defaultExpression">_defaultExpression (pyGHDL.dom.InterfaceItem.GenericConstantInterfaceItem attribute)</a>
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.dom.InterfaceItem.html#pyGHDL.dom.InterfaceItem.PortSignalInterfaceItem._defaultExpression">(pyGHDL.dom.InterfaceItem.PortSignalInterfaceItem attribute)</a>
+</li>
+      </ul></li>
+      <li><a href="pyGHDL/pyGHDL.dom.Misc.html#pyGHDL.dom.Misc.Design._documents">_documents (pyGHDL.dom.Misc.Design attribute)</a>
+</li>
+      <li><a href="pyGHDL/pyGHDL.dom.Misc.html#pyGHDL.dom.Misc.Document._entities">_entities (pyGHDL.dom.Misc.Document attribute)</a>
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.dom.Misc.html#pyGHDL.dom.Misc.Library._entities">(pyGHDL.dom.Misc.Library attribute)</a>
+</li>
+      </ul></li>
+      <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Architecture._entity">_entity (pyGHDL.dom.DesignUnit.Architecture attribute)</a>
+</li>
+      <li><a href="pyGHDL/pyGHDL.libghdl.errorout_memory.html#pyGHDL.libghdl.errorout_memory.Error_Message._fields_">_fields_ (pyGHDL.libghdl.errorout_memory.Error_Message attribute)</a>
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.libghdl.vhdl.lists.html#pyGHDL.libghdl.vhdl.lists.Iterator._fields_">(pyGHDL.libghdl.vhdl.lists.Iterator attribute)</a>
+</li>
+      </ul></li>
+      <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Entity._genericItems">_genericItems (pyGHDL.dom.DesignUnit.Entity attribute)</a>
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Package._genericItems">(pyGHDL.dom.DesignUnit.Package attribute)</a>
+</li>
+      </ul></li>
+      <li><a href="pyGHDL/pyGHDL.dom.Common.html#pyGHDL.dom.Common.GHDLMixin._ghdlNodeToName">_ghdlNodeToName() (pyGHDL.dom.Common.GHDLMixin class method)</a>
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Architecture._ghdlNodeToName">(pyGHDL.dom.DesignUnit.Architecture class method)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Configuration._ghdlNodeToName">(pyGHDL.dom.DesignUnit.Configuration class method)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Context._ghdlNodeToName">(pyGHDL.dom.DesignUnit.Context class method)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Entity._ghdlNodeToName">(pyGHDL.dom.DesignUnit.Entity class method)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Package._ghdlNodeToName">(pyGHDL.dom.DesignUnit.Package class method)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.PackageBody._ghdlNodeToName">(pyGHDL.dom.DesignUnit.PackageBody class method)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.InterfaceItem.html#pyGHDL.dom.InterfaceItem.GenericConstantInterfaceItem._ghdlNodeToName">(pyGHDL.dom.InterfaceItem.GenericConstantInterfaceItem class method)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.InterfaceItem.html#pyGHDL.dom.InterfaceItem.PortSignalInterfaceItem._ghdlNodeToName">(pyGHDL.dom.InterfaceItem.PortSignalInterfaceItem class method)</a>
+</li>
+      </ul></li>
+      <li><a href="pyGHDL/pyGHDL.dom.Common.html#pyGHDL.dom.Common.GHDLMixin._ghdlPortToMode">_ghdlPortToMode() (pyGHDL.dom.Common.GHDLMixin class method)</a>
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Architecture._ghdlPortToMode">(pyGHDL.dom.DesignUnit.Architecture class method)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Configuration._ghdlPortToMode">(pyGHDL.dom.DesignUnit.Configuration class method)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Context._ghdlPortToMode">(pyGHDL.dom.DesignUnit.Context class method)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Entity._ghdlPortToMode">(pyGHDL.dom.DesignUnit.Entity class method)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Package._ghdlPortToMode">(pyGHDL.dom.DesignUnit.Package class method)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.PackageBody._ghdlPortToMode">(pyGHDL.dom.DesignUnit.PackageBody class method)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.InterfaceItem.html#pyGHDL.dom.InterfaceItem.GenericConstantInterfaceItem._ghdlPortToMode">(pyGHDL.dom.InterfaceItem.GenericConstantInterfaceItem class method)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.InterfaceItem.html#pyGHDL.dom.InterfaceItem.PortSignalInterfaceItem._ghdlPortToMode">(pyGHDL.dom.InterfaceItem.PortSignalInterfaceItem class method)</a>
+</li>
+      </ul></li>
+      <li><a href="pyGHDL/pyGHDL.dom.Misc.html#pyGHDL.dom.Misc.Design._libraries">_libraries (pyGHDL.dom.Misc.Design attribute)</a>
+</li>
+      <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Architecture._libraryReferences">_libraryReferences (pyGHDL.dom.DesignUnit.Architecture attribute)</a>
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Entity._libraryReferences">(pyGHDL.dom.DesignUnit.Entity attribute)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Package._libraryReferences">(pyGHDL.dom.DesignUnit.Package attribute)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.PackageBody._libraryReferences">(pyGHDL.dom.DesignUnit.PackageBody attribute)</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="pyGHDL/pyGHDL.dom.InterfaceItem.html#pyGHDL.dom.InterfaceItem.GenericConstantInterfaceItem._mode">_mode (pyGHDL.dom.InterfaceItem.GenericConstantInterfaceItem attribute)</a>
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.dom.InterfaceItem.html#pyGHDL.dom.InterfaceItem.PortSignalInterfaceItem._mode">(pyGHDL.dom.InterfaceItem.PortSignalInterfaceItem attribute)</a>
+</li>
+      </ul></li>
+      <li><a href="pyGHDL/pyGHDL.dom.Common.html#pyGHDL.dom.Common.GHDLMixin._MODE_TRANSLATION">_MODE_TRANSLATION (pyGHDL.dom.Common.GHDLMixin attribute)</a>
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Architecture._MODE_TRANSLATION">(pyGHDL.dom.DesignUnit.Architecture attribute)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Configuration._MODE_TRANSLATION">(pyGHDL.dom.DesignUnit.Configuration attribute)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Context._MODE_TRANSLATION">(pyGHDL.dom.DesignUnit.Context attribute)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Entity._MODE_TRANSLATION">(pyGHDL.dom.DesignUnit.Entity attribute)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Package._MODE_TRANSLATION">(pyGHDL.dom.DesignUnit.Package attribute)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.PackageBody._MODE_TRANSLATION">(pyGHDL.dom.DesignUnit.PackageBody attribute)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.InterfaceItem.html#pyGHDL.dom.InterfaceItem.GenericConstantInterfaceItem._MODE_TRANSLATION">(pyGHDL.dom.InterfaceItem.GenericConstantInterfaceItem attribute)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.InterfaceItem.html#pyGHDL.dom.InterfaceItem.PortSignalInterfaceItem._MODE_TRANSLATION">(pyGHDL.dom.InterfaceItem.PortSignalInterfaceItem attribute)</a>
+</li>
+      </ul></li>
+      <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Architecture._name">_name (pyGHDL.dom.DesignUnit.Architecture attribute)</a>
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Configuration._name">(pyGHDL.dom.DesignUnit.Configuration attribute)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Context._name">(pyGHDL.dom.DesignUnit.Context attribute)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Entity._name">(pyGHDL.dom.DesignUnit.Entity attribute)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Package._name">(pyGHDL.dom.DesignUnit.Package attribute)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.PackageBody._name">(pyGHDL.dom.DesignUnit.PackageBody attribute)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.InterfaceItem.html#pyGHDL.dom.InterfaceItem.GenericConstantInterfaceItem._name">(pyGHDL.dom.InterfaceItem.GenericConstantInterfaceItem attribute)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.InterfaceItem.html#pyGHDL.dom.InterfaceItem.PortSignalInterfaceItem._name">(pyGHDL.dom.InterfaceItem.PortSignalInterfaceItem attribute)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.Misc.html#pyGHDL.dom.Misc.Library._name">(pyGHDL.dom.Misc.Library attribute)</a>
+</li>
+      </ul></li>
+      <li><a href="pyGHDL/pyGHDL.libghdl.errorout_memory.html#pyGHDL.libghdl.errorout_memory.Error_Message._objects">_objects (pyGHDL.libghdl.errorout_memory.Error_Message attribute)</a>
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.libghdl.vhdl.lists.html#pyGHDL.libghdl.vhdl.lists.Iterator._objects">(pyGHDL.libghdl.vhdl.lists.Iterator attribute)</a>
+</li>
+      </ul></li>
+      <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.PackageBody._package">_package (pyGHDL.dom.DesignUnit.PackageBody attribute)</a>
+</li>
+      <li><a href="pyGHDL/pyGHDL.dom.Misc.html#pyGHDL.dom.Misc.Document._packageBodies">_packageBodies (pyGHDL.dom.Misc.Document attribute)</a>
+</li>
+      <li><a href="pyGHDL/pyGHDL.dom.Misc.html#pyGHDL.dom.Misc.Document._packages">_packages (pyGHDL.dom.Misc.Document attribute)</a>
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.dom.Misc.html#pyGHDL.dom.Misc.Library._packages">(pyGHDL.dom.Misc.Library attribute)</a>
+</li>
+      </ul></li>
+      <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Architecture._parent">_parent (pyGHDL.dom.DesignUnit.Architecture attribute)</a>
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Configuration._parent">(pyGHDL.dom.DesignUnit.Configuration attribute)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Context._parent">(pyGHDL.dom.DesignUnit.Context attribute)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Entity._parent">(pyGHDL.dom.DesignUnit.Entity attribute)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Package._parent">(pyGHDL.dom.DesignUnit.Package attribute)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.PackageBody._parent">(pyGHDL.dom.DesignUnit.PackageBody attribute)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.InterfaceItem.html#pyGHDL.dom.InterfaceItem.GenericConstantInterfaceItem._parent">(pyGHDL.dom.InterfaceItem.GenericConstantInterfaceItem attribute)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.InterfaceItem.html#pyGHDL.dom.InterfaceItem.PortSignalInterfaceItem._parent">(pyGHDL.dom.InterfaceItem.PortSignalInterfaceItem attribute)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.Misc.html#pyGHDL.dom.Misc.Design._parent">(pyGHDL.dom.Misc.Design attribute)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.Misc.html#pyGHDL.dom.Misc.Document._parent">(pyGHDL.dom.Misc.Document attribute)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.Misc.html#pyGHDL.dom.Misc.Library._parent">(pyGHDL.dom.Misc.Library attribute)</a>
+</li>
+      </ul></li>
+      <li><a href="pyGHDL/pyGHDL.dom.Misc.html#pyGHDL.dom.Misc.Document._path">_path (pyGHDL.dom.Misc.Document attribute)</a>
+</li>
+      <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Entity._portItems">_portItems (pyGHDL.dom.DesignUnit.Entity attribute)</a>
+</li>
+      <li><a href="pyGHDL/pyGHDL.dom.InterfaceItem.html#pyGHDL.dom.InterfaceItem.GenericConstantInterfaceItem._subtype">_subtype (pyGHDL.dom.InterfaceItem.GenericConstantInterfaceItem attribute)</a>
+</li>
+      <li><a href="pyGHDL/pyGHDL.dom.InterfaceItem.html#pyGHDL.dom.InterfaceItem.PortSignalInterfaceItem._subType">_subType (pyGHDL.dom.InterfaceItem.PortSignalInterfaceItem attribute)</a>
+</li>
+      <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Architecture._uses">_uses (pyGHDL.dom.DesignUnit.Architecture attribute)</a>
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Context._uses">(pyGHDL.dom.DesignUnit.Context attribute)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Entity._uses">(pyGHDL.dom.DesignUnit.Entity attribute)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Package._uses">(pyGHDL.dom.DesignUnit.Package attribute)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.PackageBody._uses">(pyGHDL.dom.DesignUnit.PackageBody attribute)</a>
+</li>
+      </ul></li>
+  </ul></td>
+</tr></table>
+
+<h2 id="A">A</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li>
+    action
+
+      <ul>
+        <li><a href="pyGHDL/index.html#cmdoption-pnodes-arg-action">pnodes command line option</a>
+</li>
+        <li><a href="pyGHDL/index.html#cmdoption-pnodespy-arg-action">pnodespy command line option</a>
+</li>
+      </ul></li>
+      <li><a href="pyGHDL/pyGHDL.libghdl.html#pyGHDL.libghdl.analyze_file">analyze_file() (in module pyGHDL.libghdl)</a>
+</li>
+      <li><a href="pyGHDL/pyGHDL.libghdl.html#pyGHDL.libghdl.analyze_init">analyze_init() (in module pyGHDL.libghdl)</a>
+</li>
+      <li><a href="pyGHDL/pyGHDL.libghdl.html#pyGHDL.libghdl.analyze_init_status">analyze_init_status() (in module pyGHDL.libghdl)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Architecture">Architecture (class in pyGHDL.dom.DesignUnit)</a>
+</li>
+      <li><a href="pyGHDL/pyGHDL.dom.Misc.html#pyGHDL.dom.Misc.Document.Architectures">Architectures() (pyGHDL.dom.Misc.Document property)</a>
+</li>
+      <li><a href="pyGHDL/pyGHDL.dom.Common.html#pyGHDL.dom.Common.GHDLBaseException.args">args (pyGHDL.dom.Common.GHDLBaseException attribute)</a>
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.dom.Common.html#pyGHDL.dom.Common.GHDLException.args">(pyGHDL.dom.Common.GHDLException attribute)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.Common.html#pyGHDL.dom.Common.LibGHDLException.args">(pyGHDL.dom.Common.LibGHDLException attribute)</a>
+</li>
+      </ul></li>
+      <li><a href="pyGHDL/pyGHDL.libghdl.utils.html#pyGHDL.libghdl.utils.attr_image">attr_image() (in module pyGHDL.libghdl.utils)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="B">B</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Architecture.BodyItems">BodyItems() (pyGHDL.dom.DesignUnit.Architecture property)</a>
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Entity.BodyItems">(pyGHDL.dom.DesignUnit.Entity property)</a>
+</li>
+      </ul></li>
+  </ul></td>
+</tr></table>
+
+<h2 id="C">C</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="pyGHDL/pyGHDL.libghdl.utils.html#pyGHDL.libghdl.utils.chain_iter">chain_iter() (in module pyGHDL.libghdl.utils)</a>
+</li>
+      <li><a href="pyGHDL/pyGHDL.libghdl.utils.html#pyGHDL.libghdl.utils.chain_to_list">chain_to_list() (in module pyGHDL.libghdl.utils)</a>
+</li>
+      <li><a href="pyGHDL/pyGHDL.libghdl.vhdl.lists.html#pyGHDL.libghdl.vhdl.lists.Iterator.chunk">chunk (pyGHDL.libghdl.vhdl.lists.Iterator attribute)</a>
+</li>
+      <li><a href="pyGHDL/pyGHDL.libghdl.vhdl.lists.html#pyGHDL.libghdl.vhdl.lists.Iterator.chunk_idx">chunk_idx (pyGHDL.libghdl.vhdl.lists.Iterator attribute)</a>
+</li>
+      <li><a href="using/InvokingGHDL.html#index-1">cmd analysis</a>
+</li>
+      <li><a href="using/InvokingGHDL.html#index-6">cmd analyze and elaborate</a>
+</li>
+      <li><a href="using/InvokingGHDL.html#index-5">cmd checking syntax</a>
+</li>
+      <li><a href="using/CommandReference.html#index-1">cmd display configuration</a>
+</li>
+      <li><a href="using/CommandReference.html#index-2">cmd display standard</a>
+</li>
+      <li><a href="using/InvokingGHDL.html#index-4">cmd elaborate and run</a>
+</li>
+      <li><a href="using/InvokingGHDL.html#index-2">cmd elaboration</a>
+</li>
+      <li><a href="using/CommandReference.html#index-8">cmd file chop</a>
+</li>
+      <li><a href="using/CommandReference.html#index-7">cmd file find</a>
+</li>
+      <li><a href="using/CommandReference.html#index-9">cmd file lines</a>
+</li>
+      <li><a href="using/CommandReference.html#index-5">cmd file pretty printing</a>
+</li>
+      <li><a href="using/CommandReference.html#index-11">cmd GCC/LLVM binding</a>
+</li>
+      <li><a href="using/CommandReference.html#index-12">cmd GCC/LLVM linking</a>
+</li>
+      <li><a href="using/CommandReference.html#index-13">cmd GCC/LLVM list link</a>
+</li>
+      <li><a href="using/InvokingGHDL.html#index-9">cmd generate makefile</a>
+</li>
+      <li><a href="using/CommandReference.html#index-0">cmd help</a>
+</li>
+      <li><a href="using/InvokingGHDL.html#index-7">cmd importing files</a>
+</li>
+      <li><a href="using/InvokingGHDL.html#index-20">cmd library clean</a>
+</li>
+      <li><a href="using/InvokingGHDL.html#index-22">cmd library copy</a>
+</li>
+      <li><a href="using/InvokingGHDL.html#index-19">cmd library directory</a>
+</li>
+      <li><a href="using/InvokingGHDL.html#index-21">cmd library remove</a>
+</li>
+      <li><a href="using/InvokingGHDL.html#index-8">cmd make</a>
+</li>
+      <li><a href="using/InvokingGHDL.html#index-3">cmd run</a>
+</li>
+      <li><a href="using/CommandReference.html#index-4">cmd version</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="using/InvokingGHDL.html#index-25">cmd VPI cflags</a>
+</li>
+      <li><a href="using/InvokingGHDL.html#index-23">cmd VPI compile</a>
+</li>
+      <li><a href="using/InvokingGHDL.html#index-27">cmd VPI include dir</a>
+</li>
+      <li><a href="using/InvokingGHDL.html#index-26">cmd VPI ldflags</a>
+</li>
+      <li><a href="using/InvokingGHDL.html#index-28">cmd VPI library dir</a>
+</li>
+      <li><a href="using/InvokingGHDL.html#index-24">cmd VPI link</a>
+</li>
+      <li><a href="using/CommandReference.html#index-10">cmd XML generation</a>
+</li>
+      <li>
+    command line option
+
+      <ul>
+        <li><a href="development/Debugging.html#cmdoption-activity">--activity=&lt;LEVEL&gt;</a>
+</li>
+        <li><a href="development/Debugging.html#cmdoption-bootstrap">--bootstrap</a>
+</li>
+        <li><a href="development/Debugging.html#cmdoption-checks">--checks</a>
+</li>
+        <li><a href="development/Debugging.html#cmdoption-disp-order">--disp-order</a>
+</li>
+        <li><a href="development/Debugging.html#cmdoption-disp-sig-types">--disp-sig-types</a>
+</li>
+        <li><a href="development/Debugging.html#cmdoption-disp-signals-map">--disp-signals-map</a>
+</li>
+        <li><a href="development/Debugging.html#cmdoption-disp-signals-table">--disp-signals-table</a>
+</li>
+        <li><a href="development/Debugging.html#cmdoption-disp-sources">--disp-sources</a>
+</li>
+        <li><a href="development/Debugging.html#cmdoption-dump-rti">--dump-rti</a>
+</li>
+        <li><a href="development/Debugging.html#cmdoption-stats">--stats</a>
+</li>
+        <li><a href="development/Debugging.html#cmdoption-trace-processes">--trace-processes</a>
+</li>
+        <li><a href="development/Debugging.html#cmdoption-trace-signals">--trace-signals</a>
+</li>
+      </ul></li>
+      <li><a href="pyGHDL/pyGHDL.libghdl.utils.html#pyGHDL.libghdl.utils.concurrent_stmts_iter">concurrent_stmts_iter() (in module pyGHDL.libghdl.utils)</a>
+</li>
+      <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Configuration">Configuration (class in pyGHDL.dom.DesignUnit)</a>
+</li>
+      <li><a href="pyGHDL/pyGHDL.dom.Misc.html#pyGHDL.dom.Misc.Document.Configurations">Configurations() (pyGHDL.dom.Misc.Document property)</a>
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.dom.Misc.html#pyGHDL.dom.Misc.Library.Configurations">(pyGHDL.dom.Misc.Library property)</a>
+</li>
+      </ul></li>
+      <li><a href="pyGHDL/pyGHDL.libghdl.utils.html#pyGHDL.libghdl.utils.constructs_iter">constructs_iter() (in module pyGHDL.libghdl.utils)</a>
+</li>
+      <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Context">Context (class in pyGHDL.dom.DesignUnit)</a>
+</li>
+      <li><a href="pyGHDL/pyGHDL.dom.Misc.html#pyGHDL.dom.Misc.Document.Contexts">Contexts() (pyGHDL.dom.Misc.Document property)</a>
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.dom.Misc.html#pyGHDL.dom.Misc.Library.Contexts">(pyGHDL.dom.Misc.Library property)</a>
+</li>
+      </ul></li>
+      <li><a href="using/InvokingGHDL.html#index-18">create your own library</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="D">D</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="pyGHDL/pyGHDL.libghdl.utils.html#pyGHDL.libghdl.utils.declarations_iter">declarations_iter() (in module pyGHDL.libghdl.utils)</a>
+</li>
+      <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Architecture.DeclaredItems">DeclaredItems() (pyGHDL.dom.DesignUnit.Architecture property)</a>
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Entity.DeclaredItems">(pyGHDL.dom.DesignUnit.Entity property)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Package.DeclaredItems">(pyGHDL.dom.DesignUnit.Package property)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.PackageBody.DeclaredItems">(pyGHDL.dom.DesignUnit.PackageBody property)</a>
+</li>
+      </ul></li>
+      <li><a href="pyGHDL/pyGHDL.dom.InterfaceItem.html#pyGHDL.dom.InterfaceItem.GenericConstantInterfaceItem.DefaultExpression">DefaultExpression() (pyGHDL.dom.InterfaceItem.GenericConstantInterfaceItem property)</a>
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.dom.InterfaceItem.html#pyGHDL.dom.InterfaceItem.PortSignalInterfaceItem.DefaultExpression">(pyGHDL.dom.InterfaceItem.PortSignalInterfaceItem property)</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="pyGHDL/pyGHDL.dom.Misc.html#pyGHDL.dom.Misc.Design">Design (class in pyGHDL.dom.Misc)</a>
+</li>
+      <li><a href="pyGHDL/pyGHDL.libghdl.html#pyGHDL.libghdl.disp_config">disp_config() (in module pyGHDL.libghdl)</a>
+</li>
+      <li><a href="using/CommandReference.html#index-3">display ``std.standard``</a>
+</li>
+      <li><a href="using/Simulation.html#index-4">display design hierarchy</a>
+</li>
+      <li><a href="using/Simulation.html#index-0">display time</a>
+</li>
+      <li><a href="pyGHDL/pyGHDL.dom.Misc.html#pyGHDL.dom.Misc.Document">Document (class in pyGHDL.dom.Misc)</a>
+</li>
+      <li><a href="pyGHDL/pyGHDL.dom.Misc.html#pyGHDL.dom.Misc.Design.Documents">Documents() (pyGHDL.dom.Misc.Design property)</a>
+</li>
+      <li><a href="using/Simulation.html#index-3">dump of signals</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="E">E</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="pyGHDL/pyGHDL.dom.Misc.html#pyGHDL.dom.Misc.Document.Entities">Entities() (pyGHDL.dom.Misc.Document property)</a>
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.dom.Misc.html#pyGHDL.dom.Misc.Library.Entities">(pyGHDL.dom.Misc.Library property)</a>
+</li>
+      </ul></li>
+      <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Entity">Entity (class in pyGHDL.dom.DesignUnit)</a>
+</li>
+      <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Architecture.Entity">Entity() (pyGHDL.dom.DesignUnit.Architecture property)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li>
+    environment variable
+
+      <ul>
+        <li><a href="pyGHDL/index.html#index-0">GHDL_LS_TRACE</a>
+</li>
+        <li><a href="using/CommandReference.html#envvar-GHDL_PREFIX">GHDL_PREFIX</a>, <a href="using/InvokingGHDL.html#index-0">[1]</a>
+</li>
+      </ul></li>
+      <li><a href="pyGHDL/pyGHDL.libghdl.errorout_memory.html#pyGHDL.libghdl.errorout_memory.Error_Message">Error_Message (class in pyGHDL.libghdl.errorout_memory)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="F">F</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="pyGHDL/pyGHDL.libghdl.utils.html#pyGHDL.libghdl.utils.fields_image">fields_image() (in module pyGHDL.libghdl.utils)</a>
+</li>
+      <li><a href="pyGHDL/pyGHDL.libghdl.utils.html#pyGHDL.libghdl.utils.fields_iter">fields_iter() (in module pyGHDL.libghdl.utils)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="pyGHDL/pyGHDL.libghdl.errorout_memory.html#pyGHDL.libghdl.errorout_memory.Error_Message.file">file (pyGHDL.libghdl.errorout_memory.Error_Message attribute)</a>
+</li>
+      <li><a href="pyGHDL/pyGHDL.libghdl.html#pyGHDL.libghdl.finalize">finalize() (in module pyGHDL.libghdl)</a>
+</li>
+      <li><a href="pyGHDL/pyGHDL.libghdl.utils.html#pyGHDL.libghdl.utils.flist_iter">flist_iter() (in module pyGHDL.libghdl.utils)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="G">G</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="pyGHDL/pyGHDL.dom.InterfaceItem.html#pyGHDL.dom.InterfaceItem.GenericConstantInterfaceItem">GenericConstantInterfaceItem (class in pyGHDL.dom.InterfaceItem)</a>
+</li>
+      <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Entity.GenericItems">GenericItems() (pyGHDL.dom.DesignUnit.Entity property)</a>
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Package.GenericItems">(pyGHDL.dom.DesignUnit.Package property)</a>
+</li>
+      </ul></li>
+      <li><a href="pyGHDL/pyGHDL.libghdl.name_table.html#pyGHDL.libghdl.name_table.Get_Identifier">Get_Identifier() (in module pyGHDL.libghdl.name_table)</a>
+</li>
+      <li>
+    ghdl command line option
+
+      <ul>
+        <li><a href="using/CommandReference.html#cmdoption-ghdl-AS">--AS&lt;=COMMAND&gt;</a>
+</li>
+        <li><a href="using/Synthesis.html#cmdoption-ghdl-assert-assumes">--assert-assumes</a>
+</li>
+        <li><a href="using/Simulation.html#cmdoption-ghdl-assert-level">--assert-level=&lt;LEVEL&gt;</a>
+</li>
+        <li><a href="using/Simulation.html#cmdoption-ghdl-asserts">--asserts=&lt;POLICY&gt;</a>
+</li>
+        <li><a href="using/Synthesis.html#cmdoption-ghdl-assume-asserts">--assume-asserts</a>
+</li>
+        <li><a href="using/Simulation.html#cmdoption-ghdl-backtrace-severity">--backtrace-severity=&lt;LEVEL&gt;</a>
+</li>
+        <li><a href="using/CommandReference.html#cmdoption-ghdl-bind">--bind &lt;[options] primary_unit [secondary_unit]&gt;</a>
+</li>
+        <li><a href="using/CommandReference.html#cmdoption-ghdl-chop">--chop &lt;files...&gt;</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-clean">--clean &lt;[options]&gt;</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-copy">--copy &lt;--work=name [options]&gt;</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-dir">--dir &lt;[options] [libs]&gt;</a>
+</li>
+        <li><a href="using/CommandReference.html#cmdoption-ghdl-disp-config">--disp-config &lt;[options]&gt;</a>
+</li>
+        <li><a href="using/CommandReference.html#cmdoption-ghdl-disp-standard">--disp-standard &lt;[options]&gt;</a>
+</li>
+        <li><a href="using/Simulation.html#cmdoption-ghdl-disp-time">--disp-time</a>
+</li>
+        <li><a href="using/Simulation.html#cmdoption-ghdl-disp-tree">--disp-tree=&lt;KIND&gt;</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-elab-run">--elab-run &lt;[options...] primary_unit [secondary_unit] [simulation_options...]&gt;</a>
+</li>
+        <li><a href="using/CommandReference.html#cmdoption-ghdl-file-to-xml">--file-to-xml</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-format">--format=&lt;FORMAT&gt;</a>
+</li>
+        <li><a href="using/Simulation.html#cmdoption-ghdl-fst">--fst=&lt;FILENAME&gt;</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-gen-depends">--gen-depends &lt;[options] primary [secondary]&gt;</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-gen-makefile">--gen-makefile &lt;[options] primary [secondary]&gt;</a>
+</li>
+        <li><a href="using/CommandReference.html#cmdoption-ghdl-GHDL1">--GHDL1&lt;=COMMAND&gt;</a>
+</li>
+        <li><a href="using/CommandReference.html#cmdoption-ghdl-help">--help</a>, <a href="using/Simulation.html#cmdoption-ghdl-help">[1]</a>
+</li>
+        <li><a href="using/Simulation.html#cmdoption-ghdl-ieee-asserts">--ieee-asserts=&lt;POLICY&gt;</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-ieee">--ieee=&lt;IEEE_VAR&gt;</a>
+</li>
+        <li><a href="using/CommandReference.html#cmdoption-ghdl-lines">--lines &lt;files...&gt;</a>
+</li>
+        <li><a href="using/CommandReference.html#cmdoption-ghdl-link">--link &lt;[options] primary_unit [secondary_unit]&gt;</a>
+</li>
+        <li><a href="using/CommandReference.html#cmdoption-ghdl-LINK">--LINK&lt;=COMMAND&gt;</a>
+</li>
+        <li><a href="using/CommandReference.html#cmdoption-ghdl-list-link">--list-link &lt;primary_unit [secondary_unit]&gt;</a>
+</li>
+        <li><a href="using/Simulation.html#cmdoption-ghdl-max-stack-alloc">--max-stack-alloc=&lt;N&gt;</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-mb-comments">--mb-comments</a>
+</li>
+        <li><a href="using/Synthesis.html#cmdoption-ghdl-no-assert-cover">--no-assert-cover</a>
+</li>
+        <li><a href="using/Synthesis.html#cmdoption-ghdl-no-formal">--no-formal</a>
+</li>
+        <li><a href="using/Simulation.html#cmdoption-ghdl-no-run">--no-run</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-no-vital-checks">--no-vital-checks</a>
+</li>
+        <li><a href="using/CommandReference.html#cmdoption-ghdl-pp-html">--pp-html &lt;[options] file...&gt;</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-PREFIX">--PREFIX=&lt;PATH&gt;</a>
+</li>
+        <li><a href="using/Simulation.html#cmdoption-ghdl-psl-report">--psl-report=&lt;FILENAME&gt;</a>
+</li>
+        <li><a href="using/Simulation.html#cmdoption-ghdl-read-wave-opt">--read-wave-opt=&lt;FILENAME&gt;</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-remove">--remove &lt;[options]&gt;</a>
+</li>
+        <li><a href="using/Simulation.html#cmdoption-ghdl-sdf">--sdf=&lt;PATH=FILENAME&gt;</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-std">--std=&lt;STANDARD&gt;</a>
+</li>
+        <li><a href="using/Simulation.html#cmdoption-ghdl-stop-delta">--stop-delta=&lt;N&gt;</a>
+</li>
+        <li><a href="using/Simulation.html#cmdoption-ghdl-stop-time">--stop-time=&lt;TIME&gt;</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-syn-binding">--syn-binding</a>
+</li>
+        <li><a href="using/Synthesis.html#cmdoption-ghdl-0">--synth &lt;[options] files... -e primary_unit [secondary_unit]&gt;</a>
+</li>
+        <li><a href="using/Synthesis.html#cmdoption-ghdl-synth">--synth &lt;[options] primary_unit [secondary_unit]&gt;</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-time-resolution">--time-resolution=&lt;UNIT&gt;</a>
+</li>
+        <li><a href="using/Simulation.html#cmdoption-ghdl-unbuffered">--unbuffered</a>
+</li>
+        <li><a href="using/Simulation.html#cmdoption-ghdl-vcd-nodate">--vcd-nodate</a>
+</li>
+        <li><a href="using/Simulation.html#cmdoption-ghdl-vcd">--vcd=&lt;FILENAME&gt;</a>
+</li>
+        <li><a href="using/Simulation.html#cmdoption-ghdl-vcdgz">--vcdgz=&lt;FILENAME&gt;</a>
+</li>
+        <li><a href="using/Synthesis.html#cmdoption-ghdl-vendor-library">--vendor-library=NAME</a>
+</li>
+        <li><a href="using/CommandReference.html#cmdoption-ghdl-version">--version</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-vital-checks">--vital-checks</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-vpi-cflags">--vpi-cflags</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-vpi-compile">--vpi-compile &lt;command&gt;</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-vpi-include-dir">--vpi-include-dir</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-vpi-ldflags">--vpi-ldflags</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-vpi-library-dir">--vpi-library-dir</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-vpi-library-dir-unix">--vpi-library-dir-unix</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-vpi-link">--vpi-link &lt;command&gt;</a>
+</li>
+        <li><a href="using/Simulation.html#cmdoption-ghdl-vpi-trace">--vpi-trace=&lt;FILE&gt;</a>
+</li>
+        <li><a href="using/Simulation.html#cmdoption-ghdl-vpi">--vpi=&lt;FILENAME&gt;</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-warn-binding">--warn-binding</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-warn-body">--warn-body</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-warn-default-binding">--warn-default-binding</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-warn-delayed-checks">--warn-delayed-checks</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-warn-error">--warn-error</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-warn-hide">--warn-hide</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-warn-library">--warn-library</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-warn-nested-comment">--warn-nested-comment</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-warn-others">--warn-others</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-warn-parenthesis">--warn-parenthesis</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-warn-pure">--warn-pure</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-warn-reserved">--warn-reserved</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-warn-runtime-error">--warn-runtime-error</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-warn-shared">--warn-shared</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-warn-specs">--warn-specs</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-warn-static">--warn-static</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-warn-unused">--warn-unused</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-warn-vital-generic">--warn-vital-generic</a>
+</li>
+        <li><a href="using/Simulation.html#cmdoption-ghdl-wave">--wave=&lt;FILENAME&gt;</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-work">--work=&lt;LIB_NAME&gt;</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-workdir">--workdir=&lt;DIR&gt;</a>
+</li>
+        <li><a href="using/Simulation.html#cmdoption-ghdl-write-wave-opt">--write-wave-opt=&lt;FILENAME&gt;</a>
+</li>
+        <li><a href="using/Simulation.html#cmdoption-ghdl-xref-html">--xref-html [options] files...</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-a">-a &lt;[options...] file...&gt;</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-mb-comments">-C</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-c">-c &lt;[options] file... -&lt;e|r&gt; primary_unit [secondary_unit]&gt;</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-e">-e &lt;[options...] primary_unit [secondary_unit]&gt;</a>
+</li>
+        <li><a href="using/CommandReference.html#cmdoption-ghdl-f">-f &lt;file...&gt;</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-fcaret-diagnostics">-fcaret-diagnostics</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-fcolor-diagnostics">-fcolor-diagnostics</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-fdiagnostics-show-option">-fdiagnostics-show-option</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-fexplicit">-fexplicit</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-fno-caret-diagnostics">-fno-caret-diagnostics</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-fno-color-diagnostics">-fno-color-diagnostics</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-fno-diagnostics-show-option">-fno-diagnostics-show-option</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-fpsl">-fpsl</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-frelaxed">-frelaxed</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-frelaxed-rules">-frelaxed-rules</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-fsynopsys">-fsynopsys</a>
+</li>
+        <li><a href="using/Simulation.html#cmdoption-ghdl-gGENERIC">-gGENERIC=VALUE</a>
+</li>
+        <li><a href="using/Synthesis.html#cmdoption-ghdl-gNAME">-gNAME=VALUE</a>
+</li>
+        <li><a href="using/CommandReference.html#cmdoption-ghdl-help">-h</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-i">-i &lt;[options] file...&gt;</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-m">-m &lt;[options] primary [secondary]&gt;</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-o">-o=&lt;FNAME&gt;</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-P">-P&lt;DIRECTORY&gt;</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-r">-r &lt;[options...] primary_unit [secondary_unit] [simulation_options...]&gt;</a>
+</li>
+        <li><a href="using/InvokingGHDL.html#cmdoption-ghdl-s">-s &lt;[options] files&gt;</a>
+</li>
+        <li><a href="using/CommandReference.html#cmdoption-ghdl-version">-v</a>, <a href="using/InvokingGHDL.html#cmdoption-ghdl-v">[1]</a>
+</li>
+        <li><a href="using/CommandReference.html#cmdoption-ghdl-Wa">-Wa,&lt;OPTION&gt;</a>
+</li>
+        <li><a href="using/CommandReference.html#cmdoption-ghdl-Wc">-Wc,&lt;OPTION&gt;</a>
+</li>
+        <li><a href="using/CommandReference.html#cmdoption-ghdl-Wl">-Wl,&lt;OPTION&gt;</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li>
+    ghdl-ls command line option
+
+      <ul>
+        <li><a href="pyGHDL/index.html#cmdoption-ghdl-ls-disp-config">--disp-config</a>
+</li>
+        <li><a href="pyGHDL/index.html#cmdoption-ghdl-ls-h">--help</a>
+</li>
+        <li><a href="pyGHDL/index.html#cmdoption-ghdl-ls-input">--input &lt;input&gt;</a>
+</li>
+        <li><a href="pyGHDL/index.html#cmdoption-ghdl-ls-log-file">--log-file &lt;log_file&gt;</a>
+</li>
+        <li><a href="pyGHDL/index.html#cmdoption-ghdl-ls-trace-file">--trace-file &lt;trace_file&gt;</a>
+</li>
+        <li><a href="pyGHDL/index.html#cmdoption-ghdl-ls-verbose">--verbose</a>
+</li>
+        <li><a href="pyGHDL/index.html#cmdoption-ghdl-ls-version">--version</a>
+</li>
+        <li><a href="pyGHDL/index.html#cmdoption-ghdl-ls-h">-h</a>
+</li>
+        <li><a href="pyGHDL/index.html#cmdoption-ghdl-ls-input">-i &lt;input&gt;</a>
+</li>
+        <li><a href="pyGHDL/index.html#cmdoption-ghdl-ls-version">-V</a>
+</li>
+        <li><a href="pyGHDL/index.html#cmdoption-ghdl-ls-verbose">-v</a>
+</li>
+      </ul></li>
+      <li><a href="pyGHDL/index.html#index-0">GHDL_LS_TRACE</a>
+</li>
+      <li><a href="using/InvokingGHDL.html#index-0">GHDL_PREFIX</a>
+</li>
+      <li><a href="pyGHDL/pyGHDL.dom.Common.html#pyGHDL.dom.Common.GHDLBaseException">GHDLBaseException</a>
+</li>
+      <li><a href="pyGHDL/pyGHDL.dom.Common.html#pyGHDL.dom.Common.GHDLException">GHDLException</a>
+</li>
+      <li><a href="pyGHDL/pyGHDL.dom.Common.html#pyGHDL.dom.Common.GHDLMixin">GHDLMixin (class in pyGHDL.dom.Common)</a>
+</li>
+      <li><a href="pyGHDL/pyGHDL.libghdl.errorout_memory.html#pyGHDL.libghdl.errorout_memory.Error_Message.group">group (pyGHDL.libghdl.errorout_memory.Error_Message attribute)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="I">I</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="pyGHDL/pyGHDL.libghdl.errorout_memory.html#pyGHDL.libghdl.errorout_memory.Error_Message.id">id (pyGHDL.libghdl.errorout_memory.Error_Message attribute)</a>
+</li>
+      <li><a href="using/ImplementationOfVHDL.html#index-1">IEEE 1076</a>
+</li>
+      <li><a href="using/InvokingGHDL.html#index-13">IEEE 1076.3</a>
+</li>
+      <li><a href="using/ImplementationOfVITAL.html#index-1">IEEE 1076.4</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="using/ImplementationOfVHDL.html#index-2">IEEE 1076a</a>
+</li>
+      <li><a href="using/InvokingGHDL.html#index-11">IEEE 1164</a>
+</li>
+      <li><a href="using/InvokingGHDL.html#index-16">ieee library</a>
+</li>
+      <li><a href="pyGHDL/pyGHDL.libghdl.html#pyGHDL.libghdl.initialize">initialize() (in module pyGHDL.libghdl)</a>
+</li>
+      <li><a href="pyGHDL/pyGHDL.libghdl.vhdl.lists.html#pyGHDL.libghdl.vhdl.lists.Iterator">Iterator (class in pyGHDL.libghdl.vhdl.lists)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="K">K</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="pyGHDL/pyGHDL.libghdl.utils.html#pyGHDL.libghdl.utils.kind_image">kind_image() (in module pyGHDL.libghdl.utils)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="L">L</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="pyGHDL/pyGHDL.libghdl.utils.html#pyGHDL.libghdl.utils.leftest_location">leftest_location() (in module pyGHDL.libghdl.utils)</a>
+</li>
+      <li><a href="pyGHDL/pyGHDL.libghdl.errorout_memory.html#pyGHDL.libghdl.errorout_memory.Error_Message.length">length (pyGHDL.libghdl.errorout_memory.Error_Message attribute)</a>
+</li>
+      <li><a href="pyGHDL/pyGHDL.dom.Common.html#pyGHDL.dom.Common.LibGHDLException">LibGHDLException</a>
+</li>
+      <li><a href="pyGHDL/pyGHDL.dom.Misc.html#pyGHDL.dom.Misc.Design.Libraries">Libraries() (pyGHDL.dom.Misc.Design property)</a>
+</li>
+      <li><a href="pyGHDL/pyGHDL.dom.Misc.html#pyGHDL.dom.Misc.Library">Library (class in pyGHDL.dom.Misc)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Architecture.LibraryReferences">LibraryReferences() (pyGHDL.dom.DesignUnit.Architecture property)</a>
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Entity.LibraryReferences">(pyGHDL.dom.DesignUnit.Entity property)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Package.LibraryReferences">(pyGHDL.dom.DesignUnit.Package property)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.PackageBody.LibraryReferences">(pyGHDL.dom.DesignUnit.PackageBody property)</a>
+</li>
+      </ul></li>
+      <li><a href="pyGHDL/pyGHDL.libghdl.errorout_memory.html#pyGHDL.libghdl.errorout_memory.Error_Message.line">line (pyGHDL.libghdl.errorout_memory.Error_Message attribute)</a>
+</li>
+      <li><a href="pyGHDL/pyGHDL.libghdl.utils.html#pyGHDL.libghdl.utils.list_iter">list_iter() (in module pyGHDL.libghdl.utils)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="M">M</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="pyGHDL/pyGHDL.cli.lsp.html#pyGHDL.cli.lsp.main">main() (in module pyGHDL.cli.lsp)</a>
+</li>
+      <li><a href="using/InvokingGHDL.html#index-30">Math_Complex</a>
+</li>
+      <li><a href="using/InvokingGHDL.html#index-29">Math_Real</a>
+</li>
+      <li><a href="pyGHDL/pyGHDL.dom.InterfaceItem.html#pyGHDL.dom.InterfaceItem.GenericConstantInterfaceItem.Mode">Mode() (pyGHDL.dom.InterfaceItem.GenericConstantInterfaceItem property)</a>
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.dom.InterfaceItem.html#pyGHDL.dom.InterfaceItem.PortSignalInterfaceItem.Mode">(pyGHDL.dom.InterfaceItem.PortSignalInterfaceItem property)</a>
+</li>
+      </ul></li>
+      <li>
+    module
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.html#module-pyGHDL">pyGHDL</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.cli.html#module-pyGHDL.cli">pyGHDL.cli</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.cli.lsp.html#module-pyGHDL.cli.lsp">pyGHDL.cli.lsp</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.html#module-pyGHDL.dom">pyGHDL.dom</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.Common.html#module-pyGHDL.dom.Common">pyGHDL.dom.Common</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#module-pyGHDL.dom.DesignUnit">pyGHDL.dom.DesignUnit</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.InterfaceItem.html#module-pyGHDL.dom.InterfaceItem">pyGHDL.dom.InterfaceItem</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.Misc.html#module-pyGHDL.dom.Misc">pyGHDL.dom.Misc</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.libghdl.html#module-pyGHDL.libghdl">pyGHDL.libghdl</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.libghdl.errorout.html#module-pyGHDL.libghdl.errorout">pyGHDL.libghdl.errorout</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.libghdl.errorout_console.html#module-pyGHDL.libghdl.errorout_console">pyGHDL.libghdl.errorout_console</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.libghdl.errorout_memory.html#module-pyGHDL.libghdl.errorout_memory">pyGHDL.libghdl.errorout_memory</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.libghdl.files_map.html#module-pyGHDL.libghdl.files_map">pyGHDL.libghdl.files_map</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.libghdl.files_map_editor.html#module-pyGHDL.libghdl.files_map_editor">pyGHDL.libghdl.files_map_editor</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.libghdl.flags.html#module-pyGHDL.libghdl.flags">pyGHDL.libghdl.flags</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.libghdl.libraries.html#module-pyGHDL.libghdl.libraries">pyGHDL.libghdl.libraries</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.libghdl.name_table.html#module-pyGHDL.libghdl.name_table">pyGHDL.libghdl.name_table</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.libghdl.std_names.html#module-pyGHDL.libghdl.std_names">pyGHDL.libghdl.std_names</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.libghdl.utils.html#module-pyGHDL.libghdl.utils">pyGHDL.libghdl.utils</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.libghdl.version.html#module-pyGHDL.libghdl.version">pyGHDL.libghdl.version</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.libghdl.vhdl.html#module-pyGHDL.libghdl.vhdl">pyGHDL.libghdl.vhdl</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.libghdl.vhdl.canon.html#module-pyGHDL.libghdl.vhdl.canon">pyGHDL.libghdl.vhdl.canon</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.libghdl.vhdl.elocations.html#module-pyGHDL.libghdl.vhdl.elocations">pyGHDL.libghdl.vhdl.elocations</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.libghdl.vhdl.flists.html#module-pyGHDL.libghdl.vhdl.flists">pyGHDL.libghdl.vhdl.flists</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.libghdl.vhdl.formatters.html#module-pyGHDL.libghdl.vhdl.formatters">pyGHDL.libghdl.vhdl.formatters</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.libghdl.vhdl.ieee.html#module-pyGHDL.libghdl.vhdl.ieee">pyGHDL.libghdl.vhdl.ieee</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.libghdl.vhdl.lists.html#module-pyGHDL.libghdl.vhdl.lists">pyGHDL.libghdl.vhdl.lists</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.libghdl.vhdl.nodes.html#module-pyGHDL.libghdl.vhdl.nodes">pyGHDL.libghdl.vhdl.nodes</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.libghdl.vhdl.nodes_meta.html#module-pyGHDL.libghdl.vhdl.nodes_meta">pyGHDL.libghdl.vhdl.nodes_meta</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.libghdl.vhdl.nodes_utils.html#module-pyGHDL.libghdl.vhdl.nodes_utils">pyGHDL.libghdl.vhdl.nodes_utils</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.libghdl.vhdl.parse.html#module-pyGHDL.libghdl.vhdl.parse">pyGHDL.libghdl.vhdl.parse</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.libghdl.vhdl.scanner.html#module-pyGHDL.libghdl.vhdl.scanner">pyGHDL.libghdl.vhdl.scanner</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.libghdl.vhdl.sem.html#module-pyGHDL.libghdl.vhdl.sem">pyGHDL.libghdl.vhdl.sem</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.libghdl.vhdl.sem_lib.html#module-pyGHDL.libghdl.vhdl.sem_lib">pyGHDL.libghdl.vhdl.sem_lib</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.libghdl.vhdl.std_package.html#module-pyGHDL.libghdl.vhdl.std_package">pyGHDL.libghdl.vhdl.std_package</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.libghdl.vhdl.tokens.html#module-pyGHDL.libghdl.vhdl.tokens">pyGHDL.libghdl.vhdl.tokens</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.lsp.html#module-pyGHDL.lsp">pyGHDL.lsp</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.lsp.document.html#module-pyGHDL.lsp.document">pyGHDL.lsp.document</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.lsp.lsp.html#module-pyGHDL.lsp.lsp">pyGHDL.lsp.lsp</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.lsp.lsptools.html#module-pyGHDL.lsp.lsptools">pyGHDL.lsp.lsptools</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.lsp.references.html#module-pyGHDL.lsp.references">pyGHDL.lsp.references</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.lsp.symbols.html#module-pyGHDL.lsp.symbols">pyGHDL.lsp.symbols</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.lsp.version.html#module-pyGHDL.lsp.version">pyGHDL.lsp.version</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.lsp.vhdl_ls.html#module-pyGHDL.lsp.vhdl_ls">pyGHDL.lsp.vhdl_ls</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.lsp.workspace.html#module-pyGHDL.lsp.workspace">pyGHDL.lsp.workspace</a>
+</li>
+      </ul></li>
+  </ul></td>
+</tr></table>
+
+<h2 id="N">N</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Architecture.Name">Name() (pyGHDL.dom.DesignUnit.Architecture property)</a>
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Configuration.Name">(pyGHDL.dom.DesignUnit.Configuration property)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Context.Name">(pyGHDL.dom.DesignUnit.Context property)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Entity.Name">(pyGHDL.dom.DesignUnit.Entity property)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Package.Name">(pyGHDL.dom.DesignUnit.Package property)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.PackageBody.Name">(pyGHDL.dom.DesignUnit.PackageBody property)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.InterfaceItem.html#pyGHDL.dom.InterfaceItem.GenericConstantInterfaceItem.Name">(pyGHDL.dom.InterfaceItem.GenericConstantInterfaceItem property)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.InterfaceItem.html#pyGHDL.dom.InterfaceItem.PortSignalInterfaceItem.Name">(pyGHDL.dom.InterfaceItem.PortSignalInterfaceItem property)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.Misc.html#pyGHDL.dom.Misc.Library.Name">(pyGHDL.dom.Misc.Library property)</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="pyGHDL/pyGHDL.libghdl.utils.html#pyGHDL.libghdl.utils.name_image">name_image() (in module pyGHDL.libghdl.utils)</a>
+</li>
+      <li><a href="pyGHDL/pyGHDL.libghdl.utils.html#pyGHDL.libghdl.utils.nodes_iter">nodes_iter() (in module pyGHDL.libghdl.utils)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="O">O</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="pyGHDL/pyGHDL.libghdl.errorout_memory.html#pyGHDL.libghdl.errorout_memory.Error_Message.offset">offset (pyGHDL.libghdl.errorout_memory.Error_Message attribute)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="P">P</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Package">Package (class in pyGHDL.dom.DesignUnit)</a>
+</li>
+      <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.PackageBody.Package">Package() (pyGHDL.dom.DesignUnit.PackageBody property)</a>
+</li>
+      <li><a href="pyGHDL/pyGHDL.dom.Misc.html#pyGHDL.dom.Misc.Document.PackageBodies">PackageBodies() (pyGHDL.dom.Misc.Document property)</a>
+</li>
+      <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.PackageBody">PackageBody (class in pyGHDL.dom.DesignUnit)</a>
+</li>
+      <li><a href="pyGHDL/pyGHDL.dom.Misc.html#pyGHDL.dom.Misc.Document.Packages">Packages() (pyGHDL.dom.Misc.Document property)</a>
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.dom.Misc.html#pyGHDL.dom.Misc.Library.Packages">(pyGHDL.dom.Misc.Library property)</a>
+</li>
+      </ul></li>
+      <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Architecture.Parent">Parent() (pyGHDL.dom.DesignUnit.Architecture property)</a>
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Configuration.Parent">(pyGHDL.dom.DesignUnit.Configuration property)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Context.Parent">(pyGHDL.dom.DesignUnit.Context property)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Entity.Parent">(pyGHDL.dom.DesignUnit.Entity property)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Package.Parent">(pyGHDL.dom.DesignUnit.Package property)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.PackageBody.Parent">(pyGHDL.dom.DesignUnit.PackageBody property)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.InterfaceItem.html#pyGHDL.dom.InterfaceItem.GenericConstantInterfaceItem.Parent">(pyGHDL.dom.InterfaceItem.GenericConstantInterfaceItem property)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.InterfaceItem.html#pyGHDL.dom.InterfaceItem.PortSignalInterfaceItem.Parent">(pyGHDL.dom.InterfaceItem.PortSignalInterfaceItem property)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.Misc.html#pyGHDL.dom.Misc.Design.Parent">(pyGHDL.dom.Misc.Design property)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.Misc.html#pyGHDL.dom.Misc.Document.Parent">(pyGHDL.dom.Misc.Document property)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.Misc.html#pyGHDL.dom.Misc.Library.Parent">(pyGHDL.dom.Misc.Library property)</a>
+</li>
+      </ul></li>
+      <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Architecture.parse">parse() (pyGHDL.dom.DesignUnit.Architecture class method)</a>
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Configuration.parse">(pyGHDL.dom.DesignUnit.Configuration class method)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Context.parse">(pyGHDL.dom.DesignUnit.Context class method)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Entity.parse">(pyGHDL.dom.DesignUnit.Entity class method)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Package.parse">(pyGHDL.dom.DesignUnit.Package class method)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.PackageBody.parse">(pyGHDL.dom.DesignUnit.PackageBody class method)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.InterfaceItem.html#pyGHDL.dom.InterfaceItem.GenericConstantInterfaceItem.parse">(pyGHDL.dom.InterfaceItem.GenericConstantInterfaceItem class method)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.InterfaceItem.html#pyGHDL.dom.InterfaceItem.PortSignalInterfaceItem.parse">(pyGHDL.dom.InterfaceItem.PortSignalInterfaceItem class method)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.Misc.html#pyGHDL.dom.Misc.Document.parse">(pyGHDL.dom.Misc.Document method)</a>
+</li>
+      </ul></li>
+      <li><a href="pyGHDL/pyGHDL.dom.Misc.html#pyGHDL.dom.Misc.Document.Path">Path() (pyGHDL.dom.Misc.Document property)</a>
+</li>
+      <li>
+    pnodes command line option
+
+      <ul>
+        <li><a href="pyGHDL/index.html#cmdoption-pnodes-field-file">--field-file &lt;field_file&gt;</a>
+</li>
+        <li><a href="pyGHDL/index.html#cmdoption-pnodes-h">--help</a>
+</li>
+        <li><a href="pyGHDL/index.html#cmdoption-pnodes-keep-order">--keep-order</a>
+</li>
+        <li><a href="pyGHDL/index.html#cmdoption-pnodes-kind-file">--kind-file &lt;kind_file&gt;</a>
+</li>
+        <li><a href="pyGHDL/index.html#cmdoption-pnodes-kind-prefix">--kind-prefix &lt;kind_prefix&gt;</a>
+</li>
+        <li><a href="pyGHDL/index.html#cmdoption-pnodes-kind-range-prefix">--kind-range-prefix &lt;kind_range_prefix&gt;</a>
+</li>
+        <li><a href="pyGHDL/index.html#cmdoption-pnodes-kind-type">--kind-type &lt;kind_type&gt;</a>
+</li>
+        <li><a href="pyGHDL/index.html#cmdoption-pnodes-meta-basename">--meta-basename &lt;meta_basename&gt;</a>
+</li>
+        <li><a href="pyGHDL/index.html#cmdoption-pnodes-node-file">--node-file &lt;node_file&gt;</a>
+</li>
+        <li><a href="pyGHDL/index.html#cmdoption-pnodes-node-type">--node-type &lt;node_type&gt;</a>
+</li>
+        <li><a href="pyGHDL/index.html#cmdoption-pnodes-template-file">--template-file &lt;template_file&gt;</a>
+</li>
+        <li><a href="pyGHDL/index.html#cmdoption-pnodes-h">-h</a>
+</li>
+        <li><a href="pyGHDL/index.html#cmdoption-pnodes-arg-action">action</a>
+</li>
+      </ul></li>
+      <li>
+    pnodespy command line option
+
+      <ul>
+        <li><a href="pyGHDL/index.html#cmdoption-pnodespy-field-file">--field-file &lt;field_file&gt;</a>
+</li>
+        <li><a href="pyGHDL/index.html#cmdoption-pnodespy-h">--help</a>
+</li>
+        <li><a href="pyGHDL/index.html#cmdoption-pnodespy-keep-order">--keep-order</a>
+</li>
+        <li><a href="pyGHDL/index.html#cmdoption-pnodespy-kind-file">--kind-file &lt;kind_file&gt;</a>
+</li>
+        <li><a href="pyGHDL/index.html#cmdoption-pnodespy-kind-prefix">--kind-prefix &lt;kind_prefix&gt;</a>
+</li>
+        <li><a href="pyGHDL/index.html#cmdoption-pnodespy-kind-range-prefix">--kind-range-prefix &lt;kind_range_prefix&gt;</a>
+</li>
+        <li><a href="pyGHDL/index.html#cmdoption-pnodespy-kind-type">--kind-type &lt;kind_type&gt;</a>
+</li>
+        <li><a href="pyGHDL/index.html#cmdoption-pnodespy-meta-basename">--meta-basename &lt;meta_basename&gt;</a>
+</li>
+        <li><a href="pyGHDL/index.html#cmdoption-pnodespy-node-file">--node-file &lt;node_file&gt;</a>
+</li>
+        <li><a href="pyGHDL/index.html#cmdoption-pnodespy-node-type">--node-type &lt;node_type&gt;</a>
+</li>
+        <li><a href="pyGHDL/index.html#cmdoption-pnodespy-template-file">--template-file &lt;template_file&gt;</a>
+</li>
+        <li><a href="pyGHDL/index.html#cmdoption-pnodespy-h">-h</a>
+</li>
+        <li><a href="pyGHDL/index.html#cmdoption-pnodespy-arg-action">action</a>
+</li>
+      </ul></li>
+      <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Entity.PortItems">PortItems() (pyGHDL.dom.DesignUnit.Entity property)</a>
+</li>
+      <li><a href="pyGHDL/pyGHDL.dom.InterfaceItem.html#pyGHDL.dom.InterfaceItem.PortSignalInterfaceItem">PortSignalInterfaceItem (class in pyGHDL.dom.InterfaceItem)</a>
+</li>
+      <li>
+    pyGHDL
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.html#module-pyGHDL">module</a>
+</li>
+      </ul></li>
+      <li>
+    pyGHDL.cli
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.cli.html#module-pyGHDL.cli">module</a>
+</li>
+      </ul></li>
+      <li>
+    pyGHDL.cli.lsp
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.cli.lsp.html#module-pyGHDL.cli.lsp">module</a>
+</li>
+      </ul></li>
+      <li>
+    pyGHDL.dom
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.dom.html#module-pyGHDL.dom">module</a>
+</li>
+      </ul></li>
+      <li>
+    pyGHDL.dom.Common
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.dom.Common.html#module-pyGHDL.dom.Common">module</a>
+</li>
+      </ul></li>
+      <li>
+    pyGHDL.dom.DesignUnit
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#module-pyGHDL.dom.DesignUnit">module</a>
+</li>
+      </ul></li>
+      <li>
+    pyGHDL.dom.InterfaceItem
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.dom.InterfaceItem.html#module-pyGHDL.dom.InterfaceItem">module</a>
+</li>
+      </ul></li>
+      <li>
+    pyGHDL.dom.Misc
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.dom.Misc.html#module-pyGHDL.dom.Misc">module</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li>
+    pyGHDL.libghdl
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.libghdl.html#module-pyGHDL.libghdl">module</a>
+</li>
+      </ul></li>
+      <li>
+    pyGHDL.libghdl.errorout
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.libghdl.errorout.html#module-pyGHDL.libghdl.errorout">module</a>
+</li>
+      </ul></li>
+      <li>
+    pyGHDL.libghdl.errorout_console
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.libghdl.errorout_console.html#module-pyGHDL.libghdl.errorout_console">module</a>
+</li>
+      </ul></li>
+      <li>
+    pyGHDL.libghdl.errorout_memory
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.libghdl.errorout_memory.html#module-pyGHDL.libghdl.errorout_memory">module</a>
+</li>
+      </ul></li>
+      <li>
+    pyGHDL.libghdl.files_map
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.libghdl.files_map.html#module-pyGHDL.libghdl.files_map">module</a>
+</li>
+      </ul></li>
+      <li>
+    pyGHDL.libghdl.files_map_editor
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.libghdl.files_map_editor.html#module-pyGHDL.libghdl.files_map_editor">module</a>
+</li>
+      </ul></li>
+      <li>
+    pyGHDL.libghdl.flags
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.libghdl.flags.html#module-pyGHDL.libghdl.flags">module</a>
+</li>
+      </ul></li>
+      <li>
+    pyGHDL.libghdl.libraries
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.libghdl.libraries.html#module-pyGHDL.libghdl.libraries">module</a>
+</li>
+      </ul></li>
+      <li>
+    pyGHDL.libghdl.name_table
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.libghdl.name_table.html#module-pyGHDL.libghdl.name_table">module</a>
+</li>
+      </ul></li>
+      <li>
+    pyGHDL.libghdl.std_names
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.libghdl.std_names.html#module-pyGHDL.libghdl.std_names">module</a>
+</li>
+      </ul></li>
+      <li>
+    pyGHDL.libghdl.utils
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.libghdl.utils.html#module-pyGHDL.libghdl.utils">module</a>
+</li>
+      </ul></li>
+      <li>
+    pyGHDL.libghdl.version
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.libghdl.version.html#module-pyGHDL.libghdl.version">module</a>
+</li>
+      </ul></li>
+      <li>
+    pyGHDL.libghdl.vhdl
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.libghdl.vhdl.html#module-pyGHDL.libghdl.vhdl">module</a>
+</li>
+      </ul></li>
+      <li>
+    pyGHDL.libghdl.vhdl.canon
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.libghdl.vhdl.canon.html#module-pyGHDL.libghdl.vhdl.canon">module</a>
+</li>
+      </ul></li>
+      <li>
+    pyGHDL.libghdl.vhdl.elocations
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.libghdl.vhdl.elocations.html#module-pyGHDL.libghdl.vhdl.elocations">module</a>
+</li>
+      </ul></li>
+      <li>
+    pyGHDL.libghdl.vhdl.flists
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.libghdl.vhdl.flists.html#module-pyGHDL.libghdl.vhdl.flists">module</a>
+</li>
+      </ul></li>
+      <li>
+    pyGHDL.libghdl.vhdl.formatters
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.libghdl.vhdl.formatters.html#module-pyGHDL.libghdl.vhdl.formatters">module</a>
+</li>
+      </ul></li>
+      <li>
+    pyGHDL.libghdl.vhdl.ieee
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.libghdl.vhdl.ieee.html#module-pyGHDL.libghdl.vhdl.ieee">module</a>
+</li>
+      </ul></li>
+      <li>
+    pyGHDL.libghdl.vhdl.lists
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.libghdl.vhdl.lists.html#module-pyGHDL.libghdl.vhdl.lists">module</a>
+</li>
+      </ul></li>
+      <li>
+    pyGHDL.libghdl.vhdl.nodes
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.libghdl.vhdl.nodes.html#module-pyGHDL.libghdl.vhdl.nodes">module</a>
+</li>
+      </ul></li>
+      <li>
+    pyGHDL.libghdl.vhdl.nodes_meta
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.libghdl.vhdl.nodes_meta.html#module-pyGHDL.libghdl.vhdl.nodes_meta">module</a>
+</li>
+      </ul></li>
+      <li>
+    pyGHDL.libghdl.vhdl.nodes_utils
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.libghdl.vhdl.nodes_utils.html#module-pyGHDL.libghdl.vhdl.nodes_utils">module</a>
+</li>
+      </ul></li>
+      <li>
+    pyGHDL.libghdl.vhdl.parse
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.libghdl.vhdl.parse.html#module-pyGHDL.libghdl.vhdl.parse">module</a>
+</li>
+      </ul></li>
+      <li>
+    pyGHDL.libghdl.vhdl.scanner
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.libghdl.vhdl.scanner.html#module-pyGHDL.libghdl.vhdl.scanner">module</a>
+</li>
+      </ul></li>
+      <li>
+    pyGHDL.libghdl.vhdl.sem
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.libghdl.vhdl.sem.html#module-pyGHDL.libghdl.vhdl.sem">module</a>
+</li>
+      </ul></li>
+      <li>
+    pyGHDL.libghdl.vhdl.sem_lib
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.libghdl.vhdl.sem_lib.html#module-pyGHDL.libghdl.vhdl.sem_lib">module</a>
+</li>
+      </ul></li>
+      <li>
+    pyGHDL.libghdl.vhdl.std_package
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.libghdl.vhdl.std_package.html#module-pyGHDL.libghdl.vhdl.std_package">module</a>
+</li>
+      </ul></li>
+      <li>
+    pyGHDL.libghdl.vhdl.tokens
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.libghdl.vhdl.tokens.html#module-pyGHDL.libghdl.vhdl.tokens">module</a>
+</li>
+      </ul></li>
+      <li>
+    pyGHDL.lsp
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.lsp.html#module-pyGHDL.lsp">module</a>
+</li>
+      </ul></li>
+      <li>
+    pyGHDL.lsp.document
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.lsp.document.html#module-pyGHDL.lsp.document">module</a>
+</li>
+      </ul></li>
+      <li>
+    pyGHDL.lsp.lsp
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.lsp.lsp.html#module-pyGHDL.lsp.lsp">module</a>
+</li>
+      </ul></li>
+      <li>
+    pyGHDL.lsp.lsptools
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.lsp.lsptools.html#module-pyGHDL.lsp.lsptools">module</a>
+</li>
+      </ul></li>
+      <li>
+    pyGHDL.lsp.references
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.lsp.references.html#module-pyGHDL.lsp.references">module</a>
+</li>
+      </ul></li>
+      <li>
+    pyGHDL.lsp.symbols
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.lsp.symbols.html#module-pyGHDL.lsp.symbols">module</a>
+</li>
+      </ul></li>
+      <li>
+    pyGHDL.lsp.version
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.lsp.version.html#module-pyGHDL.lsp.version">module</a>
+</li>
+      </ul></li>
+      <li>
+    pyGHDL.lsp.vhdl_ls
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.lsp.vhdl_ls.html#module-pyGHDL.lsp.vhdl_ls">module</a>
+</li>
+      </ul></li>
+      <li>
+    pyGHDL.lsp.workspace
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.lsp.workspace.html#module-pyGHDL.lsp.workspace">module</a>
+</li>
+      </ul></li>
+  </ul></td>
+</tr></table>
+
+<h2 id="R">R</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="pyGHDL/pyGHDL.libghdl.vhdl.lists.html#pyGHDL.libghdl.vhdl.lists.Iterator.remain">remain (pyGHDL.libghdl.vhdl.lists.Iterator attribute)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Architecture.resolve">resolve() (pyGHDL.dom.DesignUnit.Architecture method)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="S">S</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="using/ImplementationOfVITAL.html#index-3">SDF</a>
+</li>
+      <li><a href="pyGHDL/pyGHDL.libghdl.utils.html#pyGHDL.libghdl.utils.sequential_iter">sequential_iter() (in module pyGHDL.libghdl.utils)</a>
+</li>
+      <li><a href="pyGHDL/pyGHDL.libghdl.html#pyGHDL.libghdl.set_option">set_option() (in module pyGHDL.libghdl)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="pyGHDL/pyGHDL.dom.InterfaceItem.html#pyGHDL.dom.InterfaceItem.GenericConstantInterfaceItem.SubType">SubType() (pyGHDL.dom.InterfaceItem.GenericConstantInterfaceItem property)</a>
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.dom.InterfaceItem.html#pyGHDL.dom.InterfaceItem.PortSignalInterfaceItem.SubType">(pyGHDL.dom.InterfaceItem.PortSignalInterfaceItem property)</a>
+</li>
+      </ul></li>
+      <li><a href="using/InvokingGHDL.html#index-17">synopsys library</a>
+</li>
+      <li><a href="using/Synthesis.html#index-0">synthesis command</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="T">T</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="pyGHDL/pyGHDL.libghdl.utils.html#pyGHDL.libghdl.utils.types_image">types_image() (in module pyGHDL.libghdl.utils)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="U">U</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Architecture.Uses">Uses() (pyGHDL.dom.DesignUnit.Architecture property)</a>
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Context.Uses">(pyGHDL.dom.DesignUnit.Context property)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Entity.Uses">(pyGHDL.dom.DesignUnit.Entity property)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.Package.Uses">(pyGHDL.dom.DesignUnit.Package property)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.DesignUnit.html#pyGHDL.dom.DesignUnit.PackageBody.Uses">(pyGHDL.dom.DesignUnit.PackageBody property)</a>
+</li>
+      </ul></li>
+  </ul></td>
+</tr></table>
+
+<h2 id="V">V</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="using/ImplementationOfVHDL.html#index-8">v00</a>
+</li>
+      <li><a href="using/ImplementationOfVHDL.html#index-9">v02</a>
+</li>
+      <li><a href="using/ImplementationOfVHDL.html#index-10">v08</a>
+</li>
+      <li><a href="using/ImplementationOfVHDL.html#index-5">v87</a>
+</li>
+      <li><a href="using/ImplementationOfVHDL.html#index-6">v93</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="using/ImplementationOfVHDL.html#index-7">v93c</a>
+</li>
+      <li><a href="using/Simulation.html#index-2">value change dump</a>
+</li>
+      <li><a href="using/Simulation.html#index-1">vcd</a>
+</li>
+      <li><a href="using/ImplementationOfVHDL.html#index-0">VHDL standards</a>
+</li>
+      <li><a href="using/CommandReference.html#index-6">vhdl to html</a>
+</li>
+      <li><a href="using/ImplementationOfVITAL.html#index-0">VITAL</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="W">W</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="pyGHDL/pyGHDL.dom.Common.html#pyGHDL.dom.Common.GHDLBaseException.with_traceback">with_traceback() (pyGHDL.dom.Common.GHDLBaseException method)</a>
+
+      <ul>
+        <li><a href="pyGHDL/pyGHDL.dom.Common.html#pyGHDL.dom.Common.GHDLException.with_traceback">(pyGHDL.dom.Common.GHDLException method)</a>
+</li>
+        <li><a href="pyGHDL/pyGHDL.dom.Common.html#pyGHDL.dom.Common.LibGHDLException.with_traceback">(pyGHDL.dom.Common.LibGHDLException method)</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="using/InvokingGHDL.html#index-15">WORK library</a>
+</li>
+  </ul></td>
+</tr></table>
+
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2002-2021, Tristan Gingold and contributors
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/buildthedocs/sphinx.theme">theme</a>
+    
+    provided by <a href="https://buildthedocs.github.io">Build the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

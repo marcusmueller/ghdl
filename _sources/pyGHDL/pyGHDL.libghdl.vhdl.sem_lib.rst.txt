@@ -1,0 +1,10 @@
+pyGHDL.libghdl.vhdl.sem_lib
+===============================
+
+.. automodule:: pyGHDL.libghdl.vhdl.sem_lib
+
+
+.. currentmodule:: pyGHDL.libghdl.vhdl.sem_lib
+
+
+.. #-----------------------------------
